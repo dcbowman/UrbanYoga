@@ -1,0 +1,281 @@
+body{
+    background-color: #f8f2eb;
+}
+
+.navbar {
+    width: 100% !important;
+    padding-left: 0px; /* move to one line */
+    padding-bottom: 0;
+    padding-top: 30px;
+    margin:0;
+    background-color:#f6fef6 !important;
+}
+
+a {
+    color: #96BA9C !important;
+}
+
+.navbar li{
+    padding-top: 15px;
+    padding-bottom: 0; 
+}
+
+.navbar li a{
+    font-size: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 0;
+    border-top:solid 1px #d3d3d3 !important;
+    background-color: #f9f9f9;
+    background-image: radial-gradient(#CCC, #FFF);
+    background-size: 1px;
+    background-position: 0 0, 100% 0;
+    background-repeat:	no-repeat;
+
+}
+
+a.active.nav-link{
+    -moz-box-shadow:    3px 3px 3px 4px #ccc;
+    -webkit-box-shadow: 3px 3px 3px 4px #ccc;
+    box-shadow:         3px 3px 3px 4px #ccc; 
+    background-image: none !important;
+}
+
+a.active{
+    color: #404040 !important;
+}
+
+
+#subnav {
+    background-color: white;
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 10px;
+    text-align: left;
+    width:100% !important;
+    font-size: 20px;
+}
+
+#subnav a{
+    color:#8b8b8b !important;
+    -moz-box-shadow:   none;
+    -webkit-box-shadow: none;
+    box-shadow:  none; 
+    padding: 15px;
+    margin: 5px;
+}
+
+#subnav a.active{
+    color: #535353 !important;
+    background-color: white !important;
+}
+
+#logo{
+    padding-left: 25px;
+    position:absolute;
+    top: 12%;
+    height: 60px;
+}
+
+#newProgram{
+    width:90px;
+    margin-left: 120px;
+}
+
+#newProgramBtn{
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+    background-color: #b0e677 !important;
+    -moz-box-shadow:    inset 0 0 10px white;
+    -webkit-box-shadow: inset 0 0 10px white;
+    box-shadow:         inset 0 0 10px white;
+    transition-duration: 0.4s;
+}
+
+#newProgramBtn:hover{
+    background-color: #535353 !important;
+}
+
+#plusIcon{
+    height: 40px;
+    width: 40px;
+}
+
+#newProgramText{
+    text-align: justify;
+    font-size: 14px;
+    font-style: bold;
+}
+
+#totalRow{
+    background-color:#f5f3ef;
+    padding: 0 !important;
+    width:100%;
+    margin: 0 auto;
+}
+
+#statCards {
+    margin-left: 50px;
+}
+
+.card{
+    width: 325px;
+    margin-left: 15px;
+    margin-top: 30px;
+    display:inline-block;
+}
+
+.card-title{
+    font-size: 23px;
+    font-style: bold;
+    color:#404040;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.pencilButton{
+    float:right;
+    margin-right: 20px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.pencilButton:hover{
+    background-color: lightseagreen;
+}
+
+.cardLabel{
+    font-size: 13px;
+}
+.graphImg{
+    width: 290px;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.totalLabel{ 
+    font-size: 11px;
+    padding-left: 20px;
+}
+
+p{
+    padding-left:20px;
+}
+
+.card-body{
+    color: #B8B8B8;
+    padding-bottom:0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto; 
+}
+.sales{
+    font-size: 15px;
+}
+
+.emphasis{
+    color:#404040;
+    font-size: 14px;
+}
+
+.oneYear{
+    text-align:center;
+}
+
+.sparkline{
+    width: 75px;
+}
+
+.moreInfo{
+    padding-left: 15px;
+}
+
+.moreInfoTag{
+    margin-left: 5px;
+    padding-left: 18px;
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    color: #8b8b8b;
+}
+
+.lessInfoTag{
+    padding-left: 20px;
+    margin: 5px;
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    color: #8b8b8b;
+}
+
+.moreTable{
+    padding-left:20px;
+}
+
+td.priceName{
+    font-size:14px;
+}
+
+td.current{
+    padding-left: 25px;
+}
+
+td.limited{
+    max-width: 105px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.linesImg{
+    padding-top: 12px;
+    margin-left: 30px;
+    height: 150px;
+    width: 100px;
+}
+
+#programTable {
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.oneYearHeader{
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.light{
+    color: #8b8b8b;
+}
+
+#programList{
+    color: #535353 !important;
+    overflow: visible;
+}
+
+.programTblSmall{
+    font-size: 12px;
+}
+
+#allProgramTbl {
+    border-bottom: #dddddd 1px solid;
+}
+
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+    display: none;
+  }
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+    display: none;
+ }
+
+.visible {
+    display: "";
+}
+
+.invisible {
+    display: hidden;
+}
+

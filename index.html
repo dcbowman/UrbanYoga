@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Urban Yoga</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+  <body>
+    <div class="container-fullwidth">
+        <nav class="navbar navbar-wrapper navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img id="logo" src="./assets/logo.png" alt=""></a>
+            <ul class="nav nav-tabs justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Workshops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Appointments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Client Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Retail</a>
+                </li>
+            </ul>
+            <div class="nav navbar-wrapper nav-pills nav-justify" id="subnav">
+                    <a class="nav-item nav-link">Dashboard</a>
+                    <a class="nav-item nav-link active" href="#">Business Overview</a>
+                    <a class="nav-item nav-link" href="#">Schedule</a>
+                    <a class="nav-item nav-link" href="#">Reports</a>
+            </div>
+            </nav>
+
+        <div id="main">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="text-center" id="newProgram">
+                        <button id="newProgramBtn" class="text-center"><img id="plusIcon" src="./assets/plus_icon.png"></button>
+                        <span id="newProgramText">New Program</span>
+                    </div>
+                </div>
+                <div id="statCards"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" id="programTable">
+                    <table class="table table-borderless">
+                        <thead class="light" id="allProgramTbl">
+                            <td>All Programs</td>
+                            <td class="programTblSmall">Monthly Sales</td>
+                            <td class="programTblSmall">Monthly Attendance</td>
+                        </thead>
+                        <tbody id="programList">       
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/app.js"></script>
+    </body>
+</html>
